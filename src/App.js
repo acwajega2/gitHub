@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+import {app,db} from './firebase/index'
+
 function App() {
+  console.log(db);
   return (
     <div className="App">
       <header className="App-header">
@@ -16,6 +19,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          
+          HEHEHEH
+          
         </a>
       </header>
     </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Search.css";
+import {Button} from "antd";
+import 'antd/dist/antd.css';
 
 const Search = props => {
   return (
@@ -13,9 +15,9 @@ const Search = props => {
             placeholder="Search profile.."
           />
         </label>
-        <button className="btn" type="submit">
+        <Button className="btn" type="submit">
           Search
-        </button>
+        </Button>
       </form>
     </div>
   );
